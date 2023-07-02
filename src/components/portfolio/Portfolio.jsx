@@ -20,8 +20,8 @@ const Portfolio = () => {
             <small className='text-light'>A video streaming application similar to youtube that lets you watch videos and search as well. Created with React and implemented Rapid API.</small>
           </h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/Alejandro-Fernandez-Macias/youtube-alike" className='btn' target='_blank'>Github</a>
-            <a href="https://creators-tube.online" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/Alejandro-Fernandez-Macias/youtube-alike" className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href="https://creators-tube.online" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
           </div>
         </article>
 
@@ -34,8 +34,8 @@ const Portfolio = () => {
             <small className='text-light'>A music streameing application thats lets you listen and search songs as well as artists. Created with React and implemented Rapid API. </small>
           </h3>
         <div className="portfolio_item-cta">
-          <a href="https://github.com/Alejandro-Fernandez-Macias/vibes" className='btn' target='_blank'>Github</a>
-          <a href="https://vibes-streamer.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://github.com/Alejandro-Fernandez-Macias/vibes" className='btn' target='_blank' rel='noreferrer'>Github</a>
+          <a href="https://vibes-streamer.netlify.app/" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
         </div>
         </article>
 
@@ -48,8 +48,8 @@ const Portfolio = () => {
             <small className='text-light'>An open-source article summarizer that transforms lenghty articles into clear and concise summaries. Created with React and implemented OpenAI's GPT-4 API. </small>
           </h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/Alejandro-Fernandez-Macias/ai_summarizer" className='btn' target='_blank'>Github</a>
-            <a href="https://super-summz.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/Alejandro-Fernandez-Macias/ai_summarizer" className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href="https://super-summz.netlify.app/" className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
           </div>
         </article>
       </div>

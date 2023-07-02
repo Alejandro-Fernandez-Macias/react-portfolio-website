@@ -8,9 +8,9 @@ import {FiInstagram} from 'react-icons/fi'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>Alejandro Fernandez</a>
+      <a href="#header" className='footer_logo'>Alejandro Fernandez</a>
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         {/* <li><a href="#services">Services</a></li> */}
@@ -19,10 +19,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.linkedin.com/in/alejandro-fernandez-704730222/" target="_blank"><BsLinkedin/></a>
-        <a href="https://github.com/Alejandro-Fernandez-Macias" target="_blank"><FaGithub/></a>
-        <a href="https://www.facebook.com/alejandro.fernandez.311" target='_blank'><AiFillFacebook/></a>
-        <a href="https://www.instagram.com/aleeandro_/" target='_blank'><FiInstagram/></a>
+        <a href="https://www.linkedin.com/in/alejandro-fernandez-704730222/" target="_blank" rel='noreferrer'><BsLinkedin/></a>
+        <a href="https://github.com/Alejandro-Fernandez-Macias" target="_blank" rel='noreferrer'><FaGithub/></a>
+        <a href="https://www.facebook.com/alejandro.fernandez.311" target='_blank' rel='noreferrer'><AiFillFacebook/></a>
+        <a href="https://www.instagram.com/aleeandro_/" target='_blank' rel='noreferrer'><FiInstagram/></a>
       </div>
 
       <div className="footer_copyright">

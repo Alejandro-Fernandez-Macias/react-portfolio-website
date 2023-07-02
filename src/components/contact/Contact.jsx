@@ -28,21 +28,21 @@ const Contact = () => {
             <MdOutlineMarkEmailRead className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>afpato3@gmail.com</h5>
-            <a href="mailto:afpato3@gmail.com" target='_blank'>Send a Message</a>
+            <a href="mailto:afpato3@gmail.com" target='_blank' rel='noreferrer'>Send a Message</a>
           </article>
 
           <article className='contact_option'>
             <RiMessengerLine className='contact_option-icon'/>
             <h4>Messenger</h4>
             <h5>Alejandro Fernandez</h5>
-            <a href="https://m.me/alejandro.fernandez.311" target='_blank'>Send a Message</a>
+            <a href="https://m.me/alejandro.fernandez.311" target='_blank' rel='noreferrer'>Send a Message</a>
           </article>
 
           <article className='contact_option'>
             <BsWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+1-559-412-6938</h5>
-            <a href="https://api.whatsapp.com/send?phone=15594126938" target='_blank'>Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=15594126938" target='_blank' rel='noreferrer'>Send a Message</a>
           </article>
         </div>
 
