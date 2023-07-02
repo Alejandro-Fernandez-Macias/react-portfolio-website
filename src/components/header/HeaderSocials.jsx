@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {FiDribbble} from 'react-icons/fi'
+import {FiInstagram} from 'react-icons/fi'
 
 
 
@@ -11,7 +11,7 @@ const HeaderSocials = () => {
     <div className='header_socials'>
         <a href="https://www.linkedin.com/in/alejandro-fernandez-704730222/" target="_blank"><BsLinkedin/></a>
         <a href="https://github.com/Alejandro-Fernandez-Macias" target="_blank"><FaGithub/></a>
-        <a href="https://dribbble.com" target="_blank"><FiDribbble/></a>
+        <a href="https://www.instagram.com/aleeandro_/" target="_blank"><FiInstagram/></a>
     </div>
   )
 }
